@@ -1,0 +1,13 @@
+[general]
+name=Geocodificación Inversa Catastral
+qgisMinimumVersion=3.0
+description=Herramienta de automatización para ingenieros ambientales. Convierte coordenadas a direcciones usando Nominatim con estandarización catastral.
+version=1.0.0
+author=Daniel Arango Irreño
+email=jua.arango3110@gmail.com  
+about=Esta herramienta realiza geocodificación inversa masiva respetando los límites de la API de Nominatim (1 req/seg). Estandariza la nomenclatura vial según catastro de colombia (CL, KR, DG) automáticamente para facilitar el diseño de rutas de barrido en la creación de puntos de inicio y fin con su dirección.
+tracker=http://example.com
+repository=http://example.com
+category=Processing
+icon=icon.png
+experimental=True
